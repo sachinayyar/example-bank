@@ -94,9 +94,7 @@ data:
       | specification in this list marked as active will be used.
       |-->
       <proxies>
-        <!-- proxy
-        | Specification for one proxy, to be used in connecting to the network.
-        |
+        
         <proxy>
           <id>optional</id>
           <active>true</active>
@@ -107,7 +105,7 @@ data:
           <port>80</port>
           <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
         </proxy>
-        -->
+        
       </proxies>
 
       <!-- servers
@@ -122,12 +120,13 @@ data:
         | NOTE: You should either specify username/password OR privateKey/passphrase, since these pairings are
         |       used together.
         |
+        -->
         <server>
           <id>deploymentRepo</id>
           <username>repouser</username>
           <password>repopwd</password>
         </server>
-        -->
+        
 
         <!-- Another sample, using keys to authenticate.
         <server>
